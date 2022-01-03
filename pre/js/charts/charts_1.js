@@ -281,8 +281,8 @@ export function initChart1_8(iframe, position) {
 
 export function initChart1_9(iframe, position) {
     //Desarrollo de funciones asociadas al gráfico > Título, subtítulo, notas, fuente de datos
-    document.getElementById('title').textContent = 'Gráfico 2_1';
-    document.getElementById('subtitle').textContent = 'Subtítulo del 2_1';
+    document.getElementById('title').textContent = 'Gráfico 1_9';
+    document.getElementById('subtitle').textContent = 'Subtítulo del 1_9';
     document.getElementById('data-source').textContent = 'INE';
     document.getElementById('data-note').textContent = 'Notas: Nada';
 
@@ -295,10 +295,10 @@ export function initChart1_9(iframe, position) {
     });
 
     //Iframe
-    setFixedIframeUrl('titulo_grafico_2_1');
+    setFixedIframeUrl('titulo_grafico_1_9');
 
     //Redes sociales > Antes tenemos que indicar cuál sería el texto a enviar
-    setRRSSLinks('Título del gráfico 2_1');
+    setRRSSLinks('Título del gráfico 1_9');
 
     //Captura de pantalla de la visualización
     setChartCanvas();
@@ -306,7 +306,7 @@ export function initChart1_9(iframe, position) {
     let pngDownload = document.getElementById('pngImage');
 
     pngDownload.addEventListener('click', function(){
-        setChartCanvasImage('titulo_grafico_2_1');
+        setChartCanvasImage('titulo_grafico_1_9');
     });
 
     //Altura del frame
@@ -315,8 +315,8 @@ export function initChart1_9(iframe, position) {
 
 export function initChart1_10(iframe, position) {
     //Desarrollo de funciones asociadas al gráfico > Título, subtítulo, notas, fuente de datos
-    document.getElementById('title').textContent = 'Gráfico 2_2';
-    document.getElementById('subtitle').textContent = 'Subtítulo del 2_2';
+    document.getElementById('title').textContent = 'Gráfico 1_10';
+    document.getElementById('subtitle').textContent = 'Subtítulo del 1_10';
     document.getElementById('data-source').textContent = 'INE';
     document.getElementById('data-note').textContent = 'Notas: Nada';
 
@@ -329,10 +329,10 @@ export function initChart1_10(iframe, position) {
     });
 
     //Iframe
-    setFixedIframeUrl('titulo_grafico_2_2');
+    setFixedIframeUrl('titulo_grafico_1_10');
 
     //Redes sociales > Antes tenemos que indicar cuál sería el texto a enviar
-    setRRSSLinks('Título del gráfico 2_2');
+    setRRSSLinks('Título del gráfico 1_10');
 
     //Captura de pantalla de la visualización
     setChartCanvas();
@@ -340,7 +340,7 @@ export function initChart1_10(iframe, position) {
     let pngDownload = document.getElementById('pngImage');
 
     pngDownload.addEventListener('click', function(){
-        setChartCanvasImage('titulo_grafico_2_2');
+        setChartCanvasImage('titulo_grafico_1_10');
     });
 
     //Altura del frame
@@ -349,8 +349,8 @@ export function initChart1_10(iframe, position) {
 
 export function initChart1_11(iframe, position) {
     //Desarrollo de funciones asociadas al gráfico > Título, subtítulo, notas, fuente de datos
-    document.getElementById('title').textContent = 'Gráfico 2_3';
-    document.getElementById('subtitle').textContent = 'Subtítulo del 2_3';
+    document.getElementById('title').textContent = 'Gráfico 1_11';
+    document.getElementById('subtitle').textContent = 'Subtítulo del 1_11';
     document.getElementById('data-source').textContent = 'INE';
     document.getElementById('data-note').textContent = 'Notas: Nada';
 
@@ -363,10 +363,10 @@ export function initChart1_11(iframe, position) {
     });
 
     //Iframe
-    setFixedIframeUrl('titulo_grafico_2_3');
+    setFixedIframeUrl('titulo_grafico_1_11');
 
     //Redes sociales > Antes tenemos que indicar cuál sería el texto a enviar
-    setRRSSLinks('Título del gráfico 2_3');
+    setRRSSLinks('Título del gráfico 1_11');
 
     //Captura de pantalla de la visualización
     setChartCanvas();
@@ -374,7 +374,7 @@ export function initChart1_11(iframe, position) {
     let pngDownload = document.getElementById('pngImage');
 
     pngDownload.addEventListener('click', function(){
-        setChartCanvasImage('titulo_grafico_2_3');
+        setChartCanvasImage('titulo_grafico_1_11');
     });
 
     //Altura del frame
