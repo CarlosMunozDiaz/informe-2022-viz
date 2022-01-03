@@ -1,6 +1,6 @@
-## Evolución de los centenarios supervivientes en España
+## Visualizaciones a utilizar en el informe 2022 sobre el perfil de las personas mayores en España
 
-Visualización que mide la evolución de las personas con 100 o más años supervivientes en España entre 1991 y 2019
+Visualizaciones
 
 ## Licencia
 
