@@ -29,6 +29,7 @@ function setChart(viz, iframe) {
     
 
     function onScroll(parentInfo) {
+        console.log(parentInfo);
         let steps = parentInfo.split(" ");
 
         if(steps[2] != 0 && !isChartActive) {
