@@ -24,7 +24,9 @@ function getUrlParams() {
 }
 
 function setChart(viz, iframe) {
+    charts_1.initChart1_1(iframe, undefined);
     pymChild.onMessage('viewport-iframe-position', onScroll);
+    
 
     function onScroll(parentInfo) {
         let steps = parentInfo.split(" ");

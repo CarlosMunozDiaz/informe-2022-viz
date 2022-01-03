@@ -25,7 +25,6 @@ body, button {
 .main {
     width: 100%;
     height: auto;
-    //height: 656px;
 
     .content {
         position: relative;
@@ -117,7 +116,7 @@ body, button {
             height: 420px;
             margin-top: 12px;
 
-            background-color: red;
+            background-color: #c3c3c3;
 
             & .tick text {
                 font-family: 'Titillium Web';
@@ -157,15 +156,18 @@ body, button {
                     margin-right: 16px;
                 }
 
-                &--data span {
+                &--data span:first-of-type {
                     font-weight: 700;
                 }
             }
 
             .chart__note {
                 font-style: italic;
-
                 margin-top: 4px;
+
+                & span:first-of-type {
+                    font-weight: 700;
+                }
             }
         }
     }
@@ -173,7 +175,7 @@ body, button {
     //Logo > Dentro del bloque b-chart
     .logo {
         position: absolute;
-        top: 8px;
+        top: 0px;
         right: 0px;
 
         width: 76px;
@@ -189,12 +191,8 @@ body, button {
 .b-title {
     width: 100%;
     max-width: calc(100% - 90px);
-    min-height: 54px;
-    margin-bottom: 16px;
-
-    .b-chart & {
-        margin-bottom: 0px;
-    }
+    min-height: 46px;
+    margin-bottom: 8px;
 
     .title {
         font-size: 1.25em;
@@ -221,7 +219,7 @@ body, button {
     width: auto;
     padding: 0px 6px;
     font-size: 0.9rem;
-    border-radius: 5px;
+    border-radius: 3px;
 
     &__option {
         height: auto;

@@ -145,8 +145,8 @@ export function initChart1_4(iframe, position) {
 
 export function initChart1_5(iframe, position) {
     //Desarrollo de funciones asociadas al gráfico > Título, subtítulo, notas, fuente de datos
-    document.getElementById('title').textContent = 'Gráfico 2_1';
-    document.getElementById('subtitle').textContent = 'Subtítulo del 2_1';
+    document.getElementById('title').textContent = 'Gráfico 1_5';
+    document.getElementById('subtitle').textContent = 'Subtítulo del 1_5';
     document.getElementById('data-source').textContent = 'INE';
     document.getElementById('data-note').textContent = 'Notas: Nada';
 
@@ -159,10 +159,10 @@ export function initChart1_5(iframe, position) {
     });
 
     //Iframe
-    setFixedIframeUrl('titulo_grafico_2_1');
+    setFixedIframeUrl('titulo_grafico_1_5');
 
     //Redes sociales > Antes tenemos que indicar cuál sería el texto a enviar
-    setRRSSLinks('Título del gráfico 2_1');
+    setRRSSLinks('Título del gráfico 1_5');
 
     //Captura de pantalla de la visualización
     setChartCanvas();
@@ -170,7 +170,7 @@ export function initChart1_5(iframe, position) {
     let pngDownload = document.getElementById('pngImage');
 
     pngDownload.addEventListener('click', function(){
-        setChartCanvasImage('titulo_grafico_2_1');
+        setChartCanvasImage('titulo_grafico_1_5');
     });
 
     //Altura del frame
@@ -179,8 +179,8 @@ export function initChart1_5(iframe, position) {
 
 export function initChart1_6(iframe, position) {
     //Desarrollo de funciones asociadas al gráfico > Título, subtítulo, notas, fuente de datos
-    document.getElementById('title').textContent = 'Gráfico 2_2';
-    document.getElementById('subtitle').textContent = 'Subtítulo del 2_2';
+    document.getElementById('title').textContent = 'Gráfico 1_6';
+    document.getElementById('subtitle').textContent = 'Subtítulo del 1_6';
     document.getElementById('data-source').textContent = 'INE';
     document.getElementById('data-note').textContent = 'Notas: Nada';
 
@@ -193,10 +193,10 @@ export function initChart1_6(iframe, position) {
     });
 
     //Iframe
-    setFixedIframeUrl('titulo_grafico_2_2');
+    setFixedIframeUrl('titulo_grafico_1_6');
 
     //Redes sociales > Antes tenemos que indicar cuál sería el texto a enviar
-    setRRSSLinks('Título del gráfico 2_2');
+    setRRSSLinks('Título del gráfico 1_6');
 
     //Captura de pantalla de la visualización
     setChartCanvas();
@@ -204,7 +204,7 @@ export function initChart1_6(iframe, position) {
     let pngDownload = document.getElementById('pngImage');
 
     pngDownload.addEventListener('click', function(){
-        setChartCanvasImage('titulo_grafico_2_2');
+        setChartCanvasImage('titulo_grafico_1_6');
     });
 
     //Altura del frame
@@ -213,8 +213,8 @@ export function initChart1_6(iframe, position) {
 
 export function initChart1_7(iframe, position) {
     //Desarrollo de funciones asociadas al gráfico > Título, subtítulo, notas, fuente de datos
-    document.getElementById('title').textContent = 'Gráfico 2_3';
-    document.getElementById('subtitle').textContent = 'Subtítulo del 2_3';
+    document.getElementById('title').textContent = 'Gráfico 1_7';
+    document.getElementById('subtitle').textContent = 'Subtítulo del 1_7';
     document.getElementById('data-source').textContent = 'INE';
     document.getElementById('data-note').textContent = 'Notas: Nada';
 
@@ -227,10 +227,10 @@ export function initChart1_7(iframe, position) {
     });
 
     //Iframe
-    setFixedIframeUrl('titulo_grafico_2_3');
+    setFixedIframeUrl('titulo_grafico_1_7');
 
     //Redes sociales > Antes tenemos que indicar cuál sería el texto a enviar
-    setRRSSLinks('Título del gráfico 2_3');
+    setRRSSLinks('Título del gráfico 1_7');
 
     //Captura de pantalla de la visualización
     setChartCanvas();
@@ -238,7 +238,7 @@ export function initChart1_7(iframe, position) {
     let pngDownload = document.getElementById('pngImage');
 
     pngDownload.addEventListener('click', function(){
-        setChartCanvasImage('titulo_grafico_2_3');
+        setChartCanvasImage('titulo_grafico_1_7');
     });
 
     //Altura del frame
@@ -247,8 +247,8 @@ export function initChart1_7(iframe, position) {
 
 export function initChart1_8(iframe, position) {
     //Desarrollo de funciones asociadas al gráfico > Título, subtítulo, notas, fuente de datos
-    document.getElementById('title').textContent = 'Gráfico 1_4';
-    document.getElementById('subtitle').textContent = 'Subtítulo del 1_4';
+    document.getElementById('title').textContent = 'Gráfico 1_8';
+    document.getElementById('subtitle').textContent = 'Subtítulo del 1_8';
     document.getElementById('data-source').textContent = 'INE';
     document.getElementById('data-note').textContent = 'Notas: Nada';
 
@@ -261,10 +261,10 @@ export function initChart1_8(iframe, position) {
     });
 
     //Iframe
-    setFixedIframeUrl('titulo_grafico_1_4');
+    setFixedIframeUrl('titulo_grafico_1_8');
 
     //Redes sociales > Antes tenemos que indicar cuál sería el texto a enviar
-    setRRSSLinks('Título del gráfico 1.4');
+    setRRSSLinks('Título del gráfico 1.8');
 
     //Captura de pantalla de la visualización
     setChartCanvas();
@@ -272,7 +272,7 @@ export function initChart1_8(iframe, position) {
     let pngDownload = document.getElementById('pngImage');
 
     pngDownload.addEventListener('click', function(){
-        setChartCanvasImage('titulo_grafico_1_4');
+        setChartCanvasImage('titulo_grafico_1_8');
     });
 
     //Altura del frame
