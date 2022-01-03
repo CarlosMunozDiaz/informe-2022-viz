@@ -178,6 +178,7 @@ export function initChart1_5(iframe, position) {
 }
 
 export function initChart1_6(iframe, position) {
+    console.log("Entra en 1.6");
     //Desarrollo de funciones asociadas al gráfico > Título, subtítulo, notas, fuente de datos
     document.getElementById('title').textContent = 'Gráfico 1_6';
     document.getElementById('subtitle').textContent = 'Subtítulo del 1_6';

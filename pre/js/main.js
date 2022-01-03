@@ -24,15 +24,14 @@ function getUrlParams() {
 }
 
 function setChart(viz, iframe) {
-    charts_1.initChart1_1(iframe, undefined);
-    pymChild.onMessage('viewport-iframe-position', onScroll);
-    
+    pymChild.onMessage('viewport-iframe-position', onScroll);    
 
     function onScroll(parentInfo) {
         console.log(parentInfo);
         let steps = parentInfo.split(" ");
 
         if(steps[2] != 0 && !isChartActive) {
+            console.log(steps[2], isChartActive);
             switch(viz){
                 //Demografía
                 case '1_1':
