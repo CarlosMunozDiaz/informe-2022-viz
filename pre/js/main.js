@@ -27,11 +27,9 @@ function setChart(viz, iframe) {
     pymChild.onMessage('viewport-iframe-position', onScroll);    
 
     function onScroll(parentInfo) {
-        console.log(parentInfo);
         let steps = parentInfo.split(" ");
 
         if(steps[2] != 0 && !isChartActive) {
-            console.log(steps[2], isChartActive);
             switch(viz){
                 //Demografía
                 case '1_1':
